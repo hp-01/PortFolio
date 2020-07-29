@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+
+/*header styling*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right,#0d56d9,#ffffff);
+  height: 100px;
+}
+
+header div {
+  font-family: Rock Salt;
+  font-size: 2em;
+  color: #f2e68f;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.menu-item {
+  display: none;
+}
+
+.menu {
+  display: flex;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+}
+
+@media only screen and (min-width: 401px) and (max-width:960px) {
+
+}
+
+@media only screen and (min-width: 961px) {
+  .menu-item {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.2em;
+  }
+
+  .menu-item li {
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  
+  .menu{
+    display: none;
+  }
+}
+/*header styling end*/
+
+/*small-intro styling*/
+.small-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.small-intro div {
+  font-size: 1.8em;
+  padding: 20px 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 961px) {
+  .small-intro div {
+    width: 800px;
+  }
+}
+/*small-intro styling end*/
+
+/*knowledge styling*/
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  flex-wrap: wrap;
+  background-color: #cacaea;
+}
+
+.content-item {
+  width:250px;
+  height: 250px;
+  box-shadow: 5px 5px #888888;
+  margin: 20px 20px;
+  background-color: #ffd28c;
+}
+
+.content-item h1{
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  background-color: #84cb66;
+}
+
+.content-item p{
+  font-size: 1.1em;
+  text-align: center;
+  font-weight: normal;
+  padding: 50px ;
+}
+
+.question{
+  font-size: 1.6em;
+  padding: 20px 20px;
+  font-family: Rock Salt;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  background-color: #ee4266;
+}
+
+/*knowledge styling end*/
